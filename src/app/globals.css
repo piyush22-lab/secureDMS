@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --navy-950: #07111f;
+  --navy-900: #0c1b2e;
+  --navy-800: #12263d;
+  --navy-700: #1a3454;
+  --gold-400: #d4a017;
+  --gold-300: #e8c36a;
+  --slate-100: #e8eef6;
+  --ink: #0f172a;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--navy-950);
+  color: var(--slate-100);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1a3454 transparent;
+}
